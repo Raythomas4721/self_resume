@@ -1,0 +1,183 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: Microsoft JhengHei, Microsoft YaHei, MingLiU, Arial, serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*,*::after,*::after {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+li {
+    line-height: 36px;
+    font-size: 24px;
+}
+.fsz_24 {
+    font-size: 24px;
+}
+.fsz_20 {
+    font-size: 20px;
+}
+.lh_30 {
+    line-height: 30px;
+}
+.red {
+    color: #A00404;
+}
+.white {
+    color: #FFFFFF;
+}
+
+h1 {
+    font-size: 80px;
+    padding-top: 40px;
+    padding-bottom: 24px;
+    border-bottom: 2px solid black;
+    line-height: 95px;
+}
+.selfie {
+    margin-top: 48px;
+    margin-bottom: 48px;
+    width: 324px;
+}
+h2 {
+    font-size: 32px;
+    line-height: 48px;
+    display: inline-block;
+    padding-bottom: 8px;
+}
+.title {
+    border-bottom: 1px solid black;
+}
+span {
+    font-size: 24px;
+    margin-left: 16px;
+    line-height: 36px;
+}
+.profile {
+    margin-top: 16px;
+}
+.profile > li {
+    margin-bottom: 24px;
+}
+.edu > li{
+    margin-top: 16px;
+}
+.skills,.contact {
+    background-color: #415165;
+}
+.skills {
+    margin-top: 64px;
+    padding-bottom: 40px;
+    margin-bottom: 64px;
+}
+.skills > .title {
+    padding-top: 24px;
+    border-bottom: 1px solid white;
+    width: 65%;
+    text-align: center;
+    margin: 0 auto;
+}
+.skill {
+    width: 250px;
+    margin: 0 auto;
+    border-left: 1px solid white;
+    padding-left: 24px;
+    margin-top: 40px;
+}
+.skill > li {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 8px;
+}
+.work {
+    margin-top: 16px;
+}
+.work > li {
+    margin-bottom: 24px;
+}
+footer {
+    margin-top: 56px;
+}
+.contact > .title {
+    padding-top: 24px;
+    text-align: center;
+    
+}
+.contact > .title {
+    color: white;
+    border-bottom: 1px solid white;
+    width: 65%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+.contact > ul > li {
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 16px;
+}
+.pics {
+    width: 15%;
+    margin: 0 auto;
+}
+.pics > img {
+    display: inline-block;
+    margin-right: 24px;
+    margin-bottom: 40px;
+}
